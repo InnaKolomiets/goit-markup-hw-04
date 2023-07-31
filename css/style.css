@@ -429,6 +429,7 @@ body {
 
 .footer .container {
     display: flex;
+    align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -454,8 +455,8 @@ body {
     letter-spacing: 0.32px;
 }
 
-.footer-social {
-    margin-left: 269px;
+.footer-left {
+    margin-right: 120px;
 }
 
 .visually-hidden {
