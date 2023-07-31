@@ -334,7 +334,7 @@ body {
     color: var(--white-color);
 }
 
-.customers {
+.customers-name {
     color: var(--navy-blue-color);
     text-align: center;
     font-family: Roboto;
@@ -349,6 +349,26 @@ body {
 
 }
 
+.customers-list.socials-icons {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: var(--light-slate-color);
+    border-color: #404bbf;
+}
+
+.customer-item .socials-icons {
+    fill: currentColor;
+}
+
+.customer-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
 .container-menu {
     padding: 72px;
     flex-shrink: 0;
