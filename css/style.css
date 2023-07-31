@@ -150,6 +150,9 @@ body {
     padding: 188px 0;
     background-size: cover;
     background-image: linear-gradient(to bottom, var(--grey-color), var(--grey-color)), url(../images/background/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .order-service {
     background-color: var(--iris-color);
@@ -162,6 +165,7 @@ body {
     font-weight: 500;
     cursor: pointer;
     padding: 16px 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service:hover, .order-service:focus {
