@@ -218,14 +218,21 @@ body {
     width: calc((100% - 72px) / 4);
 }
 
-.socials-icons {
-    width: 264px;
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    flex-shrink: 0;
-    background-color: var(--cloud-color);
+    background-color: #f4f4fd;
     border-radius: 4px;
-    padding: 24px 100px;
+    margin-bottom: 8px;
+    }
+
+.socials-icons {
+    width: 64px;
+    height: 64px;
 }
+
 
 .values .list {
     gap: 24px;
