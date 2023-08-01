@@ -432,23 +432,30 @@ body {
     display: inline-flex;
     border-radius: 100%;
     align-items: center;
+    cursor: pointer;
+    padding: 0; 
     justify-content: center;
     background-color: var(--cornflower-color);
     border:1px solid rgba(0, 0, 0, 0.10);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover {
     background-color: var(--ocean-color);
-    cursor: pointer;
+    border: none;
+    background-color: #404bbf;
 }
 
 .button-close {
     fill: var(--navy-blue-color);
     
+    
 }
 
-.button-close:hover {
+.button-close:hover, .button-close:focus  {
     fill: var(--white-color);
+    
 }
 
 
