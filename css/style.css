@@ -301,14 +301,6 @@ body {
     
 }
 
-.team-icons-background {
-    background-color: var(--iris-color);
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-}
-
 
 .customers .socials-icons {
     width: 104px;
@@ -495,7 +487,6 @@ body {
 }
 
 .footer .team-icons-background {
-    padding: 8px;
 }
 
 .social-media {
@@ -507,6 +498,13 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
     margin-bottom: 16px;
+}
+
+.team-icons-background {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
 }
 
 .social-icons-list {
