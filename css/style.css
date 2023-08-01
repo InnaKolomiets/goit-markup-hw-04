@@ -271,6 +271,16 @@ body {
     padding: 32px 0;  
 }
 
+.people-info .social-icons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-icons-background {
+    
+}
+
 .team-icons {
     fill: var(--cloud-color);
     
