@@ -426,9 +426,14 @@ body {
     display: flex; 
 }
 
-.modal-close:hover, .modal-close:focus {
+.modal-close:hover, 
+.modal-close:focus {
     background-color: var(--ocean-color);
     border: none;
+}
+
+.modal-close:hover .button-close, 
+.modal-close:focus .button-close {
     fill: #ffffff;
 }
 
@@ -484,9 +489,6 @@ body {
     gap: 16px;
     margin-top: 16px;
     padding: 0;
-}
-
-.footer .team-icons-background {
 }
 
 .social-media {
