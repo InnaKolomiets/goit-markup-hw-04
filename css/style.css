@@ -674,16 +674,15 @@ body {
     width: calc((100% - 48px) / 3);
     position: relative;
     overflow: hidden;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     
 }
 
-.card-list .link:hover, .card-list .link:focus  {
-    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-
+.card-list .link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.card-list .link:focus  {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .projects .card-content {
@@ -734,9 +733,12 @@ body {
 
 
 
-.card:hover .card-hover-text, .card:focus .card-hover-text {
+.card:hover .card-hover-text {
     transform: translateY(0%);
-    opacity: 1;
+}
+
+.card:focus .card-hover-text {
+    transform: translateY(0%);
 }
 
 
