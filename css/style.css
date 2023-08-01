@@ -334,6 +334,10 @@ body {
     color: var(--white-color);
 }
 
+.customers {
+    padding: 120px 0 120px;
+}
+
 .customers-name {
     color: var(--navy-blue-color);
     text-align: center;
@@ -341,17 +345,20 @@ body {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding: 120px 0 120px;
-
+    margin-bottom: 72px;
 
 }
-
+    .customers-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    }
 .customers-list.socials-icons {
-    width: 100%;
-    height: 100%;
+    
     border: 1px solid #8e8f99;
     border-radius: 4px;
     display: flex; 
@@ -359,20 +366,20 @@ body {
     justify-content: center;
     color: var(--light-slate-color);
     border-color: #404bbf;
+    list-style: none;
+    flex-direction: column;
+    
 }
 
 .customer-item .socials-icons {
     fill: currentColor;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customer-item {
-    width: calc((100% - 120px) / 6);
-    height: 88px;
-}
 .container-menu {
-    padding: 72px;
     flex-shrink: 0;
     text-align: center;
+    justify-content: center;
 }
 
 .container-menu .socials-icons:hover {
