@@ -287,12 +287,10 @@ body {
 
 .container-menu .socials-icons {
     border-radius: 4px;
-    border: 1px solid var(--light-slate-color);
     background-color: var(--white-color);
     padding: 16px 32px;
     width: 168px;
     height: 88px;
-    margin-right: 24px;
     
     
 }
@@ -383,6 +381,7 @@ body {
         justify-content: center;
         color: var(--light-slate-color);
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border: 1px solid #8e8f99;
 }
 
 .container-menu {
