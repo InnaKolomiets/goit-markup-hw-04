@@ -499,6 +499,7 @@ body {
 .social-icons-list {
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 
 .team-icons-background {
