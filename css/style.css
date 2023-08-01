@@ -527,7 +527,9 @@ body {
     height: 100%;
     border-radius: 50%;
     background-color:var(--iris-color);
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer .social-link:hover,
