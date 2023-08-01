@@ -424,9 +424,6 @@ body {
     fill: var(--ocean-color);
 }
 
-.modal {
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .modal-close {
     width: 24px;
@@ -434,7 +431,6 @@ body {
     top: 24px;
     right: 24px;
     flex-shrink: 0;
-    margin: 32px 368px;
     border-radius: 50%;
     align-items: center;
     cursor: pointer;
@@ -442,7 +438,6 @@ body {
     justify-content: center;
     background-color: var(--cornflower-color);
     border:1px solid rgba(0, 0, 0, 0.10);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     display: flex; 
@@ -456,6 +451,7 @@ body {
 
 .button-close {
     fill: var(--navy-blue-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 }
@@ -761,7 +757,6 @@ body {
 
 .modal {
     margin-top: 80px;
-    margin-left: 516px;
     margin-right: 516px;
     border-radius: 4px;
     background: var(--dairy, #FCFCFC);
@@ -775,8 +770,5 @@ body {
     transform: translate(-50%, -50%) scale(1);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-
 }
 
