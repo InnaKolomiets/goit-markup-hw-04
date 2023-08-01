@@ -446,6 +446,7 @@ body {
 .modal-close:hover, .modal-close:focus {
     background-color: var(--ocean-color);
     border: none;
+    fill: #ffffff;
 }
 
 .button-close {
