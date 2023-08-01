@@ -391,7 +391,7 @@ body {
     justify-content: center;
 }
 
-.customer-item .customer-link:hover {
+.customer-item .customer-link:hover, .customer-item .customer-link:focus {
     border-color: #404bbf;
     color: #404bbf;
     border-color: #404bbf;
