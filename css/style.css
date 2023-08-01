@@ -382,12 +382,20 @@ body {
         color: var(--light-slate-color);
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border: 1px solid #8e8f99;
+        
 }
 
 .container-menu {
     flex-shrink: 0;
     text-align: center;
     justify-content: center;
+}
+
+.customer-item .customer-link:hover {
+    border-color: #404bbf;
+    color: #404bbf;
+    border-color: #404bbf;
+    color: #404bbf;
 }
 
 .container-menu .socials-icons:hover {
