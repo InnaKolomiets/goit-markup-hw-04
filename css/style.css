@@ -232,8 +232,9 @@ body {
     }
 
 .socials-icons {
-  width: 64px;
-  height: 64px;
+    width: 64px;
+    height: 64px;
+    fill: currentColor
 }
 
 
@@ -310,13 +311,8 @@ body {
 
 
 .customers .socials-icons {
-    border-radius: 4px;
-    background-color: var(--white-color);
-    padding: 16px 32px;
-    width: 168px;
-    height: 88px;
-    
-    
+    width: 104px;
+    height: 56px;
 }
 
 .social-icons-list {
@@ -425,12 +421,6 @@ body {
     border-color: #404bbf;
     color: #404bbf;
 }
-
-.customers .socials-icons:hover {
-    border: 1px solid var(--ocean-color);
-    fill: var(--ocean-color);
-}
-
 
 .modal-close {
     width: 24px;
