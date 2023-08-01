@@ -544,7 +544,7 @@ body {
     background-color: var(--green-color);
 }
 
-.team-icons-background:hover, .team-icons-background:focus {
+.footer .team-icons-background:hover, .team-icons-background:focus {
     background-color: var(--green-color);
 }
 
