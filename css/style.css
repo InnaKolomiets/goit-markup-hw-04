@@ -69,11 +69,7 @@ body {
     border-radius: 2px;
 }
 
-.first-link {
-    color: var(--contact-color);
-}
-
-.list-link:hover, .list-link:focus {
+.list-link.active-link, .list-link:hover, .list-link:focus {
     color: var(--ocean-color);
     border-bottom: 4px solid var(--ocean-color);
     border-radius: 2px;
