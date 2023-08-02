@@ -54,7 +54,7 @@ body {
 
 .header .list-link {
     position: relative;
-    color: #404bbf;
+    color: var(--navy-blue-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -634,7 +634,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
 }
 
 .card {
@@ -743,8 +742,6 @@ body {
 }
 
 .modal {
-    margin-top: 80px;
-    margin-right: 516px;
     border-radius: 4px;
     background: var(--dairy, #FCFCFC);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
